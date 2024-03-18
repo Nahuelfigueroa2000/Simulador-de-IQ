@@ -1,0 +1,149 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#section1, #sumario{
+    background-color: rgb(74, 9, 196);
+    height: 325px;
+    width: 225px;
+    padding: 50px;
+    margin: 125px 5px;
+    border-radius: 2em;
+    color:#fff;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.resultado {
+    text-align: center; 
+}
+
+.circulo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 10px;
+    background: rgb(39, 7, 182);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+h2{
+    color:#fff;
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 90px;
+    margin-right:2px;
+}
+h6 {
+    color: #fff;
+    text-align: center;
+    margin-top:-60px;
+    margin-left:0;
+    opacity: 50%;
+}
+
+h3{
+    font-size: 1.2em;
+    color:#fff;
+    text-align: center;
+    margin: 50px 0 15px; 
+}
+
+h4{
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+}
+
+#sumario {
+    margin-left: 0;
+    text-align: left;
+    background-color: #32658f77;
+}
+
+#sumario h2 {
+
+    text-align: left;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#sumario ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sumario li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+#sumario li span {
+    margin-right: 5px;
+    font-size: 1.4em;
+}
+
+#reaction{
+    color: red;
+}
+
+#memory{
+    color: yellow;
+}
+
+#verbal{
+    color: aqua;
+}
+
+#visual{
+    color: blue;
+}
+
+.puntuacion{
+    color: black;
+    opacity: 0.8;
+    margin-left: 15px;
+}
+
+.continuar {
+    margin-top: 20px;
+    padding:10px 20px;
+    background-color: #07b1f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 100%; /* Hace que el botón ocupe todo el ancho disponible */
+}
+
+.continuar:hover {
+    background-color: #1808a5;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        width: 95%; /* Reducir el ancho del contenedor */
+    }
+
+    #section1,
+    #sumario {
+        width: 95%; /* Ajustar el ancho de las secciones */
+    }
+
+    .continuar {
+        width: 100%; /* Ajustar el ancho del botón */
+    }
+
+    #sumario {
+        margin-top:-125px; /* Ajusta el margen superior del sumario para juntarlo más del cuadro principal */
+    }
+}
